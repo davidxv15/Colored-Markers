@@ -1,115 +1,137 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Courgette&family=Creepster&family=Fredoka:wght@500&family=Gayathri&family=Lexend+Mega&family=MuseoModerno&family=Nabla&family=Nosifer&family=Pacifico&family=Permanent+Marker&family=Trade+Winds&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Courgette&family=Creepster&family=Fredoka:wght@500&family=Gayathri&family=Lexend+Mega&family=MuseoModerno&family=Nabla&family=Nosifer&family=Pacifico&family=Permanent+Marker&family=Trade+Winds&display=swap");
 
 h1 {
-    text-align: center;
-    font-family: "Nosifer";
-    background-image: linear-gradient(to bottom, #aa80ff, #ca7bdf, #d77cc3, #d783ac, #cf8c9e, #d49595, #d39f90, #cfaa90, #ccbd8d, #b9d399, #95e9bb, #5ffbf1);
-  }
-  
-  .container {
-    background-color: rgb(255, 255, 255);
-    padding: 10px 0;
-  }
-  
-  .marker {
-    width: 200px;
-    height: 25px;
-    margin: 10px auto;
-  }
-  
-  .cap {
-    width: 60px;
-    height: 25px;
-  }
-  
-  .sleeve {
-    width: 110px;
-    height: 25px;
-    background-color: rgba(255, 255, 255, 0.5);
-    border-left: 10px double rgba(0, 0, 0, 0.75);
-  }
-  
-  .cap, .sleeve {
-    display: inline-block;
-  }
-  
-  .red {
-    background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
-    box-shadow: 0 0 20px 0 rgba(83, 14, 14, 0.8);
-  }
-  
-  .green {
-    background: linear-gradient(#55680D, #71F53E, #116C31);
-    box-shadow: 0 0 20px 0 #3B7E20CC;
-  }
-  
-  .blue {
-    background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
-    box-shadow: 0 0 20px 0 blue;
-  }
-  
-  .spin {
-    position:absolute;
-    top: 70%;
-    left: 35%;
-    animation-name: spin;
-    animation-duration: 5000ms;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    box-shadow: 20px 20px 15px 12px #333;
-  }
+  text-align: center;
+  font-family: "Nosifer";
+  background-image: linear-gradient(
+    to bottom,
+    #aa80ff,
+    #ca7bdf,
+    #d77cc3,
+    #d783ac,
+    #cf8c9e,
+    #d49595,
+    #d39f90,
+    #cfaa90,
+    #ccbd8d,
+    #b9d399,
+    #95e9bb,
+    #5ffbf1
+  );
+}
 
-  @keyframes spin {
-    from {
-        transform:rotate(0deg);
-    }
-    to {
-        transform:rotate(360deg);
-    }
- }
+.container {
+  background-color: rgb(255, 255, 255);
+  padding: 10px 0;
+}
 
- .rainbow-bg{
-    animation: rainbow-bg 2.5s linear;
-    animation-iteration-count: infinite;
- }
+.marker {
+  width: 200px;
+  height: 25px;
+  margin: 10px auto;
+}
 
- @keyframes rainbow-bg{
-    100%,0%{
-        background-color: rgb(255,0,0);
-    }
-    8%{
-        background-color: rgb(255,127,0);
-    }
-    16%{
-        background-color: rgb(255,255,0);
-    }
-    25%{
-        background-color: rgb(127,255,0);
-    }
-    33%{
-        background-color: rgb(0,255,0);
-    }
-    41%{
-        background-color: rgb(0,255,127);
-    }
-    50%{
-        background-color: rgb(0,255,255);
-    }
-    58%{
-        background-color: rgb(0,127,255);
-    }
-    66%{
-        background-color: rgb(0,0,255);
-    }
-    75%{
-        background-color: rgb(127,0,255);
-    }
-    83%{
-        background-color: rgb(255,0,255);
-    }
-    91%{
-        background-color: rgb(255,0,127);
-    }
+.cap {
+  width: 60px;
+  height: 25px;
+}
+
+.sleeve {
+  width: 110px;
+  height: 25px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-left: 10px double rgba(0, 0, 0, 0.75);
+}
+
+.cap,
+.sleeve {
+  display: inline-block;
+}
+
+.red {
+  background: linear-gradient(
+    rgb(122, 74, 14),
+    rgb(245, 62, 113),
+    rgb(162, 27, 27)
+  );
+  box-shadow: 0 0 20px 0 rgba(83, 14, 14, 0.8);
+}
+
+.green {
+  background: linear-gradient(#55680d, #71f53e, #116c31);
+  box-shadow: 0 0 20px 0 #3b7e20cc;
+}
+
+.blue {
+  background: linear-gradient(
+    hsl(186, 76%, 16%),
+    hsl(223, 90%, 60%),
+    hsl(240, 56%, 42%)
+  );
+  box-shadow: 0 0 20px 0 blue;
+}
+
+.spin {
+  position: absolute;
+  top: 70%;
+  left: 35%;
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  box-shadow: 20px 20px 15px 15px #333;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rainbow-bg {
+  animation: rainbow-bg 2.5s linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rainbow-bg {
+  100%,
+  0% {
+    background-color: rgb(255, 0, 0);
+  }
+  8% {
+    background-color: rgb(255, 127, 0);
+  }
+  16% {
+    background-color: rgb(255, 255, 0);
+  }
+  25% {
+    background-color: rgb(127, 255, 0);
+  }
+  33% {
+    background-color: rgb(0, 255, 0);
+  }
+  41% {
+    background-color: rgb(0, 255, 127);
+  }
+  50% {
+    background-color: rgb(0, 255, 255);
+  }
+  58% {
+    background-color: rgb(0, 127, 255);
+  }
+  66% {
+    background-color: rgb(0, 0, 255);
+  }
+  75% {
+    background-color: rgb(127, 0, 255);
+  }
+  83% {
+    background-color: rgb(255, 0, 255);
+  }
+  91% {
+    background-color: rgb(255, 0, 127);
+  }
 }
