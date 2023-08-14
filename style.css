@@ -74,7 +74,8 @@ h1 {
 .spin {
   position: absolute;
   top: 70%;
-  left: 35%;
+  /* left: 35%; */
+  margin: auto;
   animation-name: spin;
   animation-duration: 5000ms;
   animation-iteration-count: infinite;
