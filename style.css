@@ -62,7 +62,9 @@ h1 {
 }
 
 .cap,
-.sleeve, .cap2, .sleeve2 {
+.sleeve,
+.cap2,
+.sleeve2 {
   display: inline-block;
 }
 
@@ -96,6 +98,15 @@ h1 {
     hsl(223, 90%, 60%)
   );
   box-shadow: 0 0 20px 0 blue;
+}
+
+#pauseButton {
+  background-color: #71f53e;
+  color: black;
+  border-radius: 10%;
+  position: relative;
+  left: 20%;
+  transform: translateY(400px);
 }
 
 .spin {
