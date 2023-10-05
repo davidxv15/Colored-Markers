@@ -18,6 +18,8 @@ h1 {
     #95e9bb,
     #5ffbf1
   );
+  box-shadow: 5px 8px 5px rgb(156, 19, 19);;
+  border-radius: 50px;
 }
 
 .container {
