@@ -103,8 +103,8 @@ h1 {
 }
 
 #pauseButton {
-  background-color: #07ecec;
-  color: black;
+  background-color: #d34fff;
+  color: rgb(255, 255, 255);
   border-radius: 50px;
   position: relative;
   left: 20%;
