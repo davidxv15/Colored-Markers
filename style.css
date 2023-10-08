@@ -23,7 +23,10 @@ h1 {
 }
 
 .container {
-  background-color: rgb(255, 255, 255);
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuKg_GwHUrrNRIMah5sOWX7Ruv-3q-R2En1Q&usqp=CAU);
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-color: rgb(128, 118, 179);
   padding: 10px 0;
 }
 
