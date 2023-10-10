@@ -43,6 +43,7 @@ h1 {
   width: 400px;
   height: 50px;
   margin: 10px auto;
+  transform: translateY(100px);
 }
 
 .cap {
@@ -120,14 +121,14 @@ h1 {
 
 .spin {
   position: absolute;
-  top: 75%;
+  /* top: 75%; */
   left: 30%;
   margin: auto;
   animation-name: spin;
   animation-duration: 5000ms;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-  box-shadow: 50px 20px 20px 20px #33333385;
+  box-shadow: 50px 20px 20px 20px #333333bf;
   /* moving shadow or moving light source */
 }
 
