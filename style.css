@@ -20,6 +20,7 @@ h1 {
   );
   box-shadow: 5px 8px 5px rgb(156, 19, 19);
   border-radius: 50px;
+  position: sticky;
 }
 
 .container {
@@ -29,6 +30,7 @@ h1 {
   background-size: cover;
   background-color: rgb(128, 118, 179);
   padding: 10px 0;
+  position: sticky;
 }
 
 .marker {
@@ -125,7 +127,7 @@ h1 {
   animation-duration: 5000ms;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-  box-shadow: 50px 20px 20px 20px #333;
+  box-shadow: 50px 20px 20px 20px #33333385;
   /* moving shadow or moving light source */
 }
 
