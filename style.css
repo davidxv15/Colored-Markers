@@ -21,6 +21,7 @@ h1 {
   box-shadow: 5px 8px 5px rgb(156, 19, 19);
   border-radius: 50px;
   position: sticky;
+  animation: pulse 2s infinite 2s ease;
 }
 
 .container {
@@ -188,4 +189,21 @@ h1 {
   91% {
     background-color: rgb(255, 0, 127);
   }
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+	}
+
+	50% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
 }
