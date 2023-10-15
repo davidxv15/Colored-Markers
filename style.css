@@ -21,7 +21,7 @@ h1 {
   box-shadow: 5px 8px 5px rgb(156, 19, 19);
   border-radius: 50px;
   position: sticky;
-  animation: pulse 2s infinite 2s ease;
+  animation: pulse infinite 5s ease;
 }
 
 .container {
