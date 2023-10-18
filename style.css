@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat&family=Courgette&family=Creepster&family=Fredoka:wght@500&family=Gayathri&family=Lexend+Mega&family=MuseoModerno&family=Nabla&family=Nosifer&family=Pacifico&family=Permanent+Marker&family=Trade+Winds&display=swap");
 
+* {
+  /* background-color: burlywood; */
+}
+
 h1 {
   text-align: center;
   font-family: "Nosifer";
@@ -116,7 +120,7 @@ h1 {
   font-family: "Caveat", sans-serif;
   font-size: 20px;
   color: rgb(255, 255, 255);
-  background-color: #ee4019;
+  background-color: #260c65;
   border-radius: 50px;
   position: relative;
   left: 5%;
