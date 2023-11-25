@@ -139,7 +139,7 @@ h1 {
   animation-duration: 5000ms;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-  box-shadow: 20px 50px 50px 20px #333333bf;
+  box-shadow: 20px 50px 20px 20px #333333bf;
   /* moving shadow or moving light source */
 }
 
