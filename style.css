@@ -109,8 +109,8 @@ h1 {
 
 .blue2 {
   background: linear-gradient(
-    hsl(58, 55%, 90%),
-    hsl(186, 62%, 38%),
+    hsl(228, 68%, 71%),
+    hsl(219, 70%, 24%),
     hsl(223, 79%, 38%)
   );
   box-shadow: 0 0 20px 0 blue;
