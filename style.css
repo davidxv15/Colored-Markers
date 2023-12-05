@@ -121,8 +121,8 @@ h1 {
   width: 150px;
   font-family: "Caveat", sans-serif;
   font-size: 20px;
-  color: rgb(252, 76, 0);
-  background-color: #000000;
+  color: rgb(0, 0, 0);
+  background-color: rgb(252, 76, 0);
   border-radius: 50px;
   position: relative;
   left: 5%;
