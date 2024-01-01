@@ -127,7 +127,7 @@ h1 {
   position: relative;
   left: 5%;
   transform: translateY(200px);
-  box-shadow: 0 0 20px 0 rgb(62, 7, 7);
+  box-shadow: 0 0 20px 0 rgb(52, 8, 8);
 }
 
 .spin {
