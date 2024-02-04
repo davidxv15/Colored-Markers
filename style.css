@@ -5,7 +5,7 @@
 }
 
 h1 {
-  color: rgb(165, 26, 26);
+  color: rgb(5, 237, 17);
   -webkit-text-stroke: 1px black;
   text-align: center;
   font-family: "Nosifer";
@@ -109,9 +109,9 @@ h1 {
 
 .blue2 {
   background: linear-gradient(
-    hsl(58, 55%, 90%),
-    hsl(186, 62%, 38%),
-    hsl(223, 79%, 38%)
+    hsl(228, 68%, 71%),
+    hsl(223, 79%, 38%),
+    hsl(219, 70%, 24%)
   );
   box-shadow: 0 0 20px 0 blue;
 }
@@ -119,15 +119,20 @@ h1 {
 #pauseButton {
   height: 50px;
   width: 150px;
-  font-family: "Caveat", sans-serif;
+  font-family: "Gayathri", sans-serif;
   font-size: 20px;
+<<<<<<< HEAD
   color: rgb(255, 255, 255);
   background-color: #12145a;
+=======
+  color: rgb(21, 165, 194);
+  background-color: rgb(112, 48, 21);
+>>>>>>> c50a8ef490e5575b9cd9eb7abb121a7ce060ecf3
   border-radius: 50px;
   position: relative;
   left: 5%;
   transform: translateY(200px);
-  box-shadow: 0 0 20px 0 blue;
+  box-shadow: 0 0 20px 0 rgb(52, 8, 8);
 }
 
 .spin {
@@ -139,7 +144,7 @@ h1 {
   animation-duration: 5000ms;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-  box-shadow: 50px 20px 20px 20px #333333bf;
+  box-shadow: 20px 50px 20px 20px #333333bf;
   /* moving shadow or moving light source */
 }
 
